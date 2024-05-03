@@ -1,6 +1,6 @@
 # Conta Bancária
 
-Simulação de uma Conta Bancária através do Terminal/Console.
+Simulação de uma Conta Bancária através do Terminal/Console, com captura do número da conta, da agência, nome de titular e saldo da conta pelo Scanner e retorno das informações por linha de comando.
 
 ## Como Executar
 

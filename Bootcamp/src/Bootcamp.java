@@ -7,7 +7,6 @@ public class Bootcamp {
   private String descricao;
   private LocalDate dataInicial;
   private LocalDate dataFinal;
-  private List<Dev> devs;
   private List<Mentoria> mentorias;
   private List<AtividadeCurso> atividadesCursos;
 
@@ -16,7 +15,6 @@ public class Bootcamp {
     this.descricao = descricao;
     this.dataInicial = dataInicial;
     this.dataFinal = dataFinal;
-    this.devs = new ArrayList<>();
     this.mentorias = new ArrayList<>();
     this.atividadesCursos = new ArrayList<>();
   }
@@ -29,10 +27,6 @@ public class Bootcamp {
   }
   public List<AtividadeCurso> getAtividadesCursos() {
     return atividadesCursos;
-  }
-
-  public void inscreverDev(Dev dev) {
-    devs.add(dev);
   }
 
   public void adicionarMentoria(Mentoria mentoria) {

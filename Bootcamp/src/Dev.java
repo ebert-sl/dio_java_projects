@@ -21,7 +21,6 @@ public class Dev {
   }
 
   public void inscreverNoBootcamp(Bootcamp bootcamp) {
-    bootcamp.inscreverDev(this);
     mentorias = bootcamp.getMentorias();
     atividadesCursos = bootcamp.getAtividadesCursos();
     System.out.println(nome + ", você foi inscrito com sucesso no Bootcamp " + bootcamp.getNome() + "!");
